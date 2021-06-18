@@ -1,0 +1,10 @@
+create table tb_transaction (
+    id varchar(255) primary key,
+    amount decimal(10,2) not null,
+    location_name varchar(255) not null,
+    location_city varchar(255) not null,
+    location_address varchar(255) not null,
+    card_id varchar(255) not null,
+    card_email varchar(255) not null,
+    effect_in datetime not null
+) engine=InnoDB default charset=utf8mb4;
