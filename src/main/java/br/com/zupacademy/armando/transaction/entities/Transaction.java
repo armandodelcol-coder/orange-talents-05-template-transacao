@@ -66,4 +66,35 @@ public class Transaction {
         this.effectIn = effectIn;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public String getLocationName() {
+        return locationName;
+    }
+
+    public String getLocationCity() {
+        return locationCity;
+    }
+
+    public String getLocationAddress() {
+        return locationAddress;
+    }
+
+    public String getCardId() {
+        return cardId;
+    }
+
+    public String getCardEmail() {
+        return cardEmail;
+    }
+
+    public LocalDateTime getEffectIn() {
+        return effectIn;
+    }
 }
